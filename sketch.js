@@ -1,3 +1,4 @@
+
 var ship;
 
 function setup () {
@@ -86,4 +87,5 @@ function Ship() {
 	this.turn = function(){
 		this.heading += this.rotation;
 	}
+
 }
